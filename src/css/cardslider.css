@@ -35,8 +35,16 @@
     margin-top: 7px;
     display: block;
 }
-.card_slider .chart_bar{
+.card_slider{
+    position: relative;
+}
+.chart_bar{
     position: absolute;
+    right: 0;
+    top: 0;
+}
+.chart_bar .chart_bar_img{
+    height: 90px;
 }
 .card_slider h3{
     font-family: 'Lato', sans-serif;
@@ -66,6 +74,16 @@
 
 
 /* // RESPONSIVE AREA // */
+/* @media only screen and (max-width: 1220px){
+    .card_slider .chart_bar{
+        position: absolute;
+        top: 0;
+        float: right;
+        height: 75px;
+        margin-left: 146px;
+        top: 22px;
+    }
+} */
 @media only screen and (max-width: 993px){
     .containerr {
         margin-top: 130px;

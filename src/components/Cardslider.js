@@ -13,7 +13,7 @@ import img_seven from '../images/cardano.png'
 import img_eight from '../images/solana.png'
 import img_night from '../images/terra.png'
 import img_ten from '../images/avalanche.png'
-import img_chart from '../images/chart.jpg'
+import img_chart from '../images/graph.84e97057.svg'
 // import 
 // import bit_coin from ''
 // import './App.css';
@@ -52,6 +52,7 @@ class cardslider extends Component {
     };
         const arrayOfObjects = [
             { 
+              chart: img_chart,
               img_path: img_one,
               name:"Bit coin",
               img_chart: img_chart,
@@ -60,6 +61,7 @@ class cardslider extends Component {
               percantage: "2.04%",
             },
             { 
+              chart: img_chart,
                 img_path: img_two,
                 name:"Ethereum",
                 img_chart: img_chart,
@@ -68,6 +70,7 @@ class cardslider extends Component {
                 percantage: "2.49%",
             },
             { 
+              chart: img_chart,
                 img_path: img_three,
                 name:"Tether",
                 img_chart: img_chart,
@@ -76,6 +79,7 @@ class cardslider extends Component {
                 percantage: "-0.16%",
             },
             { 
+              chart: img_chart,
                 img_path: img_four,
                 name:"Binance Coin",
                 img_chart: img_chart,
@@ -84,6 +88,7 @@ class cardslider extends Component {
                 percantage: "-0.03%",
             },
             { 
+              chart: img_chart,
                 img_path: img_five,
                 name:"USD Coin",
                 img_chart: img_chart,
@@ -91,7 +96,7 @@ class cardslider extends Component {
                 price: "$ 0.999189",
                 percantage: "-0.03%",
             },
-            { 
+            {  chart: img_chart,
                 img_path: img_six,
                 name:"XRP",
                 img_chart: img_chart,
@@ -99,7 +104,7 @@ class cardslider extends Component {
                 price: "$ 0.736543",
                 percantage: "4.83%",
             },
-            { 
+            {  chart: img_chart,
                 img_path: img_seven,
                 name:"Cardano",
                 img_chart: img_chart,
@@ -108,6 +113,7 @@ class cardslider extends Component {
                 percantage: "2.92%",
             },
             { 
+              chart: img_chart,
                 img_path: img_eight,
                 name:"Solana",
                 img_chart: img_chart,
@@ -116,6 +122,7 @@ class cardslider extends Component {
                 percantage: "2.78%",
             },
             { 
+              chart: img_chart,
                 img_path: img_night,
                 name:"Terra",
                 img_chart: img_chart,
@@ -124,6 +131,7 @@ class cardslider extends Component {
                 percantage: "10.75%",
             },
             { 
+              chart: img_chart,
                 img_path: img_ten,
                 name:"Avalanche",
                 img_chart: img_chart,
@@ -142,7 +150,7 @@ class cardslider extends Component {
           <div className='card_slider'>
              <img src={post.img_path}/>
              <span>{post.name}</span>
-             {/* <img src={img_chart} className="chart_bar"/> */}
+             <div className='chart_bar'><img src={img_chart} className="chart_bar_img"/></div>
              <h3>{post.abbreviation}</h3>
              <price>{post.price}</price>
              <percantage>{post.percantage}</percantage>
