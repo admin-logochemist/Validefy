@@ -19,7 +19,7 @@ function Header() {
                 <ul className="nav-links">
                    <label htmlFor="close-btn" className="btn close-btn"><i className="fa fa-times"></i></label>
                    <a href=""><img src={side_logo} className="side_logo" /></a>
-                   <li className='menu-links'><a href="/">Home</a></li>
+                   <li className='menu-links'><a href="">Home</a></li>
                     <li className='menu-links'>
                         <a href="" className="desktop-item">PLATFORMS<i className="fa fa-caret-down"></i></a>
                         <input type="checkbox" id="showDrop" />
@@ -44,7 +44,7 @@ function Header() {
                         </ul>
                     </li>
                     <li className='menu-links login display_none'><a href="">Login</a></li>
-                    <li className='menu-links login display_none'><a href="">SIGNUP</a></li>  
+                    <li className='menu-links login'><a href="">SIGNUP</a></li>  
                     
                     
                 </ul>

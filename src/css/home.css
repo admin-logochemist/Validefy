@@ -273,6 +273,12 @@
         font-size: 50px;
     }
 }
+@media only screen and (max-width: 1190px){
+    .nav-links li a {
+        font-size: 16px;
+        padding: 9px 20px;
+    }
+}
 @media only screen and (max-width: 1400px){
 .validate .main_title_banner .banner_h4 {
     line-height: 45px;

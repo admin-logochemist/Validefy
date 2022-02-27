@@ -14,6 +14,7 @@ import multichain from '../images/Icon_awesome-coins.svg'
 import titan from '../images/crypto-wallet.svg'
 import Footer from '../components/Footer'
 AOS.init();
+
 function Home() {
   return (
     <div>
