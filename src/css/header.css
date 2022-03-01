@@ -206,16 +206,7 @@ nav{
       border-radius: 5px;
       font-size: 18px;
     }
-    .content .row .mega-links{
-      border-left: 0px;
-      padding-left: 15px;
-    }
-    .row .mega-links li{
-      margin: 0;
-    }
-    .content .row header{
-      font-size: 19px;
-    }
+
   }
   nav input{
     display: none;

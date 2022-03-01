@@ -24,6 +24,7 @@ class cardslider extends Component {
       stagePadding: 0,
       margin: 0,
       dots: false,
+      autoSpeed:500,
       slidesToShow: 4,
       slidesToScroll: 1,
       responsive: [
