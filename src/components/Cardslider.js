@@ -14,9 +14,7 @@ import img_eight from '../images/solana.png'
 import img_night from '../images/terra.png'
 import img_ten from '../images/avalanche.png'
 import img_chart from '../images/chart.jpg'
-// import 
-// import bit_coin from ''
-// import './App.css';
+
 
 class cardslider extends Component {
   render() {
@@ -25,6 +23,8 @@ class cardslider extends Component {
       margin: 0,
       dots: false,
       slidesToShow: 4,
+      autoplay: true,
+      autoplaySpeed: 2000,
       slidesToScroll: 1,
       responsive: [
         {

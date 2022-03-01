@@ -8,7 +8,7 @@ export default function BNB() {
     <>
     <Header />
     <Coming />
-  <Footer/>
+    <Footer/>
     </>
   )
 }

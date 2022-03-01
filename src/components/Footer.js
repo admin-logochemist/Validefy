@@ -62,6 +62,7 @@ function Footer() {
                       <li><a><i class="fa fa-twitter"></i></a></li>
                       <li><a><i class="fa fa-instagram"></i></a></li>
                       <li><a><i class="fa fa-linkedin"></i></a></li>
+                      <li><a><i class="fa fa-medium"></i></a></li>
                     </ul>
                   </div>
                 </div>

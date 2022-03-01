@@ -54,7 +54,7 @@
   .side_menu .wrapper .btn.close-btn {
     position: absolute;
     top: 10px;
-    left: 393px;
+    left: 193px;
     display: none;
 }
   /* custom scroll bar */
@@ -69,17 +69,18 @@
   }
 .side_menu  #menu-btn:checked ~ .side-links{
     left: 0%;
-    max-width: 350px;
+    max-width: 262px;
   }
   .side_menu #menu-btn:checked ~  .side-links li a{
     display: block;
-    padding-left: 90px;
+    padding-left: 63px;
   }
   .side_menu #menu-btn:checked ~ .side-links li .side_icons {
     display: unset;
     position: absolute;
     padding-top: 9px;
-    padding-left: 33px;
+    padding-left: 20px;
+    font-size: 25px;
 }
   .side_menu #menu-btn:checked ~ .menu-btn {
     position: relative;
@@ -88,7 +89,7 @@
 }
 .side_menu #menu-btn:checked ~ .close-btn{
   display: block;
-  width: 4%;
+  width: 66px;
 }
 
   .side_menu .side-links li{
@@ -101,7 +102,7 @@
     display: none;
     color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     letter-spacing: 2px;
     text-decoration: none;
   }
@@ -154,8 +155,8 @@
     display: none;
   }
  .side_menu .side-links li a i{
-  padding-right: 5px;
-  font-size: 23px;
+  padding-right: 0px;
+  font-size: 15px;
  }
  .side_icons{
   font-size: 33px;
