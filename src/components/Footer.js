@@ -3,7 +3,8 @@ import '../css/footer.css'
 import footer_logo from '../images/logoFtr.svg'
 import img_one from '../images/BBB-icon.png'
 import img_two from '../images/PCI-icon.png'
-
+import { Link } from 'react-router-dom'
+import Home from '../pages/Home'
 function Footer() {
   return (
       <>
@@ -12,42 +13,42 @@ function Footer() {
               <div className='row'>
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
-                    <h4>Tools</h4>
-                    <li><a>VALIDEFI•DX</a></li>
-                    <li><a>Portfolio Tracker</a></li>
-                    <li><a>VALIDEFI•NT T-Link</a></li>
-                    <li><a>Titan Wallet</a></li>
+                    <h4>TOOLS</h4>
+                    <li><Link to='/Validdx'><a>VALIDEFI•DX</a></Link></li>
+                    <li><Link to='/PortfolioTracker'><a>Portfolio Tracker</a></Link></li>
+                    <li><Link to='/VALIDEFINTTLink'><a>VALIDEFI•NT T-Link</a></Link></li>
+                    <li><Link to='/TitanWallet'> <a>Titan Wallet</a></Link> </li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
-                    <h4>Token</h4>
-                      <li><a>Valid Token</a></li>
-                      <li><a>PSP (Profit Share Protocol)</a></li>
-                      <li><a>White Paper</a></li>
+                    <h4>TOKEN</h4>
+                      <li><Link to='/Validtoken'><a>Valid Token</a></Link></li>
+                      <li><Link to='/Psp'><a>PSP (Profit Share Protocol)</a></Link></li>
+                      <li><Link to='/Whitepaper'> <a>White Paper</a></Link> </li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>ABOUT</h4>
-                    <li><a>Team</a></li>
-                    <li><a>Investor Relations</a></li>
-                    <li><a>Institutional</a></li>
-                    <li><a>Careers</a></li>
-                    <li><a>NFT Platform</a></li>
+                    <li><Link to='/Team'> <a>Team</a></Link> </li>
+                    <li><Link to='/InvestorRelations'><a>Investor Relations</a></Link></li>
+                    <li><Link to='/Institutional'><a>Institutional</a></Link></li>
+                    <li><Link to='/Careers'><a>Careers</a></Link></li>
+                    <li><Link to='/NFTPlatform'><a>NFT Platform</a></Link></li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>LEGAL</h4>
-                    <li><a>Privacy Policy</a></li>
-                    <li><a>Term of use</a></li>
-                    <li><a>Customer Agreement</a></li>
-                    <li><a>Licenses</a></li>
-                    <li><a>Promotions</a></li>
+                    <li><Link to='/Termofuse'><a>Term of use</a></Link></li>
+                    <li><Link to='/CustomerAgreement'><a>Customer Agreement</a></Link></li>
+                    <li><Link to='/Licenses'><a>Licenses</a></Link></li>
+                    <li><Link to='/PrivacyPolicy'><a>Privacy Policy</a></Link></li>
+                    <li><Link to='/Promotions'><a>Promotions</a></Link></li>
                   </div>
                 </div>
 
@@ -57,10 +58,10 @@ function Footer() {
                     <img src={footer_logo}/>
                     <p>We're committed to creating financial freedom by making valid and secure tools accessible to everyone.</p>
                     <ul>
-                      <li><a href='https://business.facebook.com/Validefi-Network-106728818516821/' target="_blank"><i class="fa fa-facebook-f"></i></a></li>
-                      <li><a href='https://twitter.com/ValidefiNetwork' target="_blank"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href='https://instagram.com/validefinetwork' target="_blank"><i class="fa fa-instagram"></i></a></li>
-                      <li><a  href='https://linkedin.com/' target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a><i class="fa fa-facebook-f"></i></a></li>
+                      <li><a><i class="fa fa-twitter"></i></a></li>
+                      <li><a><i class="fa fa-instagram"></i></a></li>
+                      <li><a><i class="fa fa-linkedin"></i></a></li>
                     </ul>
                   </div>
                 </div>

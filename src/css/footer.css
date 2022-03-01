@@ -11,7 +11,8 @@
 .footer li{
     list-style: none;
 }
-.footer li a{
+.footer li  a{
+    text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: white !important;
     letter-spacing: 2px;
@@ -33,7 +34,7 @@
     letter-spacing: 1px;
     text-transform: capitalize;
 }
-.footer ul li{
+.footer ul li {
     display: inline-flex;
     border-radius: 30px;
     border: 2px solid white;

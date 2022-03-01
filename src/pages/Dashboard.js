@@ -2,12 +2,12 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../css/dashboard.css'
 import Sidebar from '../components/Sidebar'
-// import '../css/sidebar.css'
-// import 'font-awesome/css/font-awesome.min.css'
+import Dashheader from '../components/Dashheader'
 function Dashboard() {
   return (
       <>
       <Sidebar />
+      <Dashheader />
       </>
   )
 }
