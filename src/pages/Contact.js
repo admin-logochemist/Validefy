@@ -3,13 +3,14 @@ import Header from '../components/Header'
 import Contactus from '../components/Contactus'
 import Footer from '../components/Footer'
 import Coming from '../components/Coming'
+import ContactForm from '../components/ContactForm'
 
 
 export default function Contact() {
   return (
       <>
     <Header />
-    <Coming />
+    <ContactForm/>
     <Contactus/>
    <Footer/>
    </>
