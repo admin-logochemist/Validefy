@@ -43,12 +43,10 @@ marquee .animation::before{
 }
 .coin_names{
     color: white;
-    /* animation: example1 10s linear infinite; */
     font-size: 18px;
 
 }
 .coin_names .price{
-    /* display: block; */
     margin-left: 10px;
 }
 .coin_names .current_value{
@@ -57,18 +55,4 @@ marquee .animation::before{
 .coin_names .value{
     margin-left: 20px;
     color: rgb(124 157 124);
-}
-
-/* #tradingview_1bbc4 */
-/* .col_iframe > div > */
-.col_iframe{
-    background: hsla(0,0%,100%,.05);
-}
-.col_iframe .trandingview{
-    color: #ecde84;
-    letter-spacing: 1px;
-}
-.col_iframe > div > iframe{
-    width: 100%;
-    height: 370px;
 }

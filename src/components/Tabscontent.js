@@ -1,99 +1,90 @@
-import { Tabs } from 'antd';
-import 'antd/dist/antd.css';
-import 'font-awesome/css/font-awesome.min.css'
+// import 'font-awesome/css/font-awesome.min.css'
 import wallet_icon from '../images/wallet-solid.svg'
-import BitCoin from '../pages/BitCoin';
+import BitCoin from '../components/BitCoin';
 import bitcoin_icon from '../images/bitcoin.png'
 import Ethcoin_icon from '../images/eth.svg'
 import Tethercoin_icon from '../images/tether.png'
 import Bnb_icon from '../images/bnb.svg'
 import Usd_icon from '../images/usd-coin.png'
+import TradingSnaps from './TradingSnaps';
+import Trades from './Trades';
+
+
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '../css/tab_content.css'
-const { TabPane } = Tabs;
-
-function callback(key) {
-  console.log(key);
-}
-
-function Tabscontent(){
-  return(
-    <>
-      <div className='container'>
-        <div className='row'>
-          <div className='col'>
-          <div className='vollet_btn'><button><img src={wallet_icon}/>Connect Wallet</button></div>
-              <Tabs defaultActiveKey="2">
-                <TabPane
-                  tab={
-                    <span className='tabs'>
-                    {/* <i class="fa fa-bitcoin"></i> */}
-                    <img src={bitcoin_icon}/>
-                      Bit Coin
-                    </span>
-                  }
-                  key="1"
-                >
-                <BitCoin />
-                </TabPane>
-
-                  <TabPane
-                    tab={
-                      <span className='tabs'>
-                       <img src={Ethcoin_icon}/>
-                      ETH
-                      </span>
-                    }
-                    key="2"
-                  >
-                    Tab 2
-
-                  </TabPane>
-
-                  <TabPane
-                    tab={
-                      <span className='tabs'>
-                        <img src={Tethercoin_icon} />
-                     Tether
-                      </span>
-                    }
-                    key="3"
-                  >
-                    Tab 3
-                  </TabPane>
-
-
-                  <TabPane
-                    tab={
-                      <span className='tabs'>
-                        <img src={Bnb_icon} />
-                        Binance 
-                      </span>
-                    }
-                    key="4"
-                  >
-                    Tab 4
-                  </TabPane>
-                  
-                  <TabPane
-                    tab={
-                      <span className='tabs'>
-                        <img src={Usd_icon} />
-                     USD
-                      </span>
-                    }
-                    key="5"
-                  >
-                    Tab 5
-                  </TabPane>
-              </Tabs>
-          </div>
+import BullSays from './BullSays';
+import TechnicalAnalysis from './TechnicalAnalysis';
+function Tabscontent() {
+  return (
+    <div class="container own_container">
+        <div class="row">
+            <div class="col-lg-12 margin-top">
+            <div className='vollet_btn'>
+          <button>
+            <img src={wallet_icon}/>Connect Wallet
+          </button>
         </div>
-      </div>
-    </>
+                <div class="tab tabs_flex" role="tabpanel">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#bit" aria-controls="home" role="tab" data-toggle="tab"><img src={bitcoin_icon}/>Bit</a></li>
+                        <li role="presentation"><a href="#ETH" aria-controls="profile" role="tab" data-toggle="tab"><img src={Ethcoin_icon}/> ETH</a></li>
+                        <li role="presentation"><a href="#tether" aria-controls="messages" role="tab" data-toggle="tab">< img src={Tethercoin_icon}/> Tether </a></li>
+                        <li role="presentation"><a href="#bnb" aria-controls="messages" role="tab" data-toggle="tab">< img src={Bnb_icon}/> BNB </a></li>
+                        <li role="presentation"><a href="#usd" aria-controls="messages" role="tab" data-toggle="tab">< img src={Usd_icon}/> USD </a></li>
+                    </ul>
+                    <div class="tab-content tabs">
+                        <div role="tabpanel" class="tab-pane fade in active" id="bit">
+                          <div className='own_flex_class'>
+                          <BitCoin/>
+                          <TradingSnaps/>
+                          <Trades />
+                          <BullSays />
+                          <TechnicalAnalysis />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="ETH">
+                        <div className='own_flex_class'>
+                          <BitCoin/>
+                          <TradingSnaps/>
+                          <Trades />
+                          <BullSays />
+                          <TechnicalAnalysis />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="tether">
+                          <div className='own_flex_class'>
+                            <BitCoin/>
+                            <TradingSnaps/>
+                            <Trades />
+                            <BullSays />
+                            <TechnicalAnalysis />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="bnb">
+                          <div className='own_flex_class'>
+                            <BitCoin/>
+                            <TradingSnaps/>
+                            <Trades />
+                            <BullSays />
+                            <TechnicalAnalysis />
+                          </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="usd">
+                          <div className='own_flex_class'>
+                            <BitCoin/>
+                            <TradingSnaps/>
+                            <Trades />
+                            <BullSays />
+                            <TechnicalAnalysis />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   )
 }
-// const Tabscontent = () => (
-
-// );
 
 export default Tabscontent
