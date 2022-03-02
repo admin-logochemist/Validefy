@@ -8,7 +8,7 @@ export default function Form() {
   return (
       <>
       <div className="form-bg">
-    <div classNameName="container">
+    <div classNameName="container-fluid">
         <div classNameName="row form-row">
             <div className="col-md-6">
                 <form className="form-horizontal">
@@ -17,7 +17,7 @@ export default function Form() {
                         <label className="control-label" for="exampleInputName2"><i className="fa fa-solid fa-envelope fa-2x"></i></label>
                         <input required="" type="email" className="form-control" id="exampleInputEmail1" placeholder='Enter Your Email'></input>
                     </div>
-                    
+    
                     <div className="form-group">
                         <label className="control-label" for="exampleInputName2"><i class="fa fa-thin fa-lock fa-3x"></i></label>
                         <input required="" type="password" className="form-control" placeholder='Enter Your Password'></input>

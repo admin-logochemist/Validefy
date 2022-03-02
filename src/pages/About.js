@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from '../components/Header'
-import Coming from '../components/Coming'
 import Footer from '../components/Footer'
+import Aboutcontent from '../components/Aboutcontent'
 
 const About = () => {
   return (
-    <>
-    <Header />
-    <Coming />
-  <Footer/>
-    </>
-  )
+  <> 
+  <Header /> 
+  <Aboutcontent />
+   <Footer />
+  </>
+  );
 }
 
 export default About

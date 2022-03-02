@@ -2,11 +2,13 @@
     margin-top: 160px;
     position: relative;
     left: 20px;
-    
+  
 }
+
 .form-bg{
     background-size: cover;
     position: relative;
+
 }
 
 .form-bg:before{
@@ -24,13 +26,14 @@
     width: 110%;
     position: relative;
     left: 296px;
-    height: 1000px;
+    height: 950px;
     letter-spacing: 1px;
     padding: 60px 40px 55px 40px;
-    margin-top: 40px;
+    margin-top: 200px;
     background:    #13173a;
     border-radius: 5px ;
     border: 2px solid white;
+    margin-bottom: 10px;
     
 }
 

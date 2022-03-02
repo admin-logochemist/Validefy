@@ -44,13 +44,27 @@
 .search-row{
     margin-top: 5px;
 }
+.faq-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 5px;
+    height: 150px;
+}
 .search{
-    width: 50%;
-    height:65px;
+    height:55px;
     font-size: 28px;
     padding: 0px 33px;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border: 1px solid #f0c537;
+    width:65%;
+    margin-top: 5px;
+    border-radius: 6px ;
+   
 
+}
+.faq-search{
+    display: flex;
+     justify-content: center;
 }
