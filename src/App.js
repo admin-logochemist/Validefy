@@ -1,6 +1,6 @@
 
 // import Header from "./components/Header";
-import {Routes, Route} from "react-router-dom"
+import {HashRouter, Routes, Route} from "react-router-dom"
 import Home from "./pages/Home";
 import Dashboard from './pages/Dashboard'
 import Login from "./pages/Login";
@@ -48,7 +48,6 @@ function App() {
        <Route path="BNB" element={<BNB />} />
        <Route path="USDT" element={<USDT />} />
        <Route path="Tron" element={<Tron />} />
-       <Route path="About" element={<About />} />
        <Route path="Faq" element={<Faq />} />
        <Route path="Contact" element={<Contact />} />
        <Route path="Validefidx" element={<Validefidx />} />

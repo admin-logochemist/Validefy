@@ -8,7 +8,7 @@ import RetPlayer from 'react-player'
 import video from '../video/proVid.mp4';
 import Cardslider from '../components/Cardslider'
 import sec_img from '../images/about image.png'
-import head_img from '../images/head_img.png'
+import head_img from '../images/logoIcon.svg'
 import chain from '../images/portfolio.svg'
 import multichain from '../images/Icon_awesome-coins.svg'
 import titan from '../images/crypto-wallet.svg'

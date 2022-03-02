@@ -3,7 +3,7 @@
 body{
     background: #0B2251 !important;
 }
-nav{
+nav.main_nav{
     position: fixed;
     top: 0%;
     left: 0%;
@@ -11,7 +11,7 @@ nav{
     width: 100%;
     background: #0B2251 !important;
   }
-  nav .wrapper{
+  nav.main_nav .wrapper{
     position: relative;
     padding: 0px 30px;
     height: 120px;
@@ -21,7 +21,7 @@ nav{
     align-items: center;
     justify-content: space-between;
   }
-  .wrapper .logo a{
+ nav.main_nav .wrapper .logo a{
     text-decoration: none;
   }
   .side_logo{
@@ -41,7 +41,7 @@ nav{
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    padding: 9px 30px;
+    padding: 9px 15px;
     transition: all 0.3s ease;
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
@@ -51,6 +51,59 @@ nav{
     color: #ffd475;
     border-bottom: 3px solid #ffd475;
   }
+  .sign_up{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(90deg,#c09434,#caa344,#d3b154,#ddc064,#e7cf75,#e7cf75,#e7cf75,#e7cf75,#ddc064,#d3b154,#caa344,#c09434);
+    color: #443107;
+    border: none;
+    padding: 0px 34px;
+    margin: 10px 7px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: all 0.5s;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+.sign_up a:hover{
+  color: #443107;
+}
+.sign_up > a{
+  color: #443107 !important;
+  font-weight: 600 !important;
+}
+
+.sign_up:before,
+.sign_up:after{
+    content: "";
+    background-color: #8f939396;
+    height: 100%;
+    width: 50%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 0;
+    transition: all 0.4s ease-out 0.1s;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.sign_up:after{
+    opacity: 0;
+    transform: scale(0.9,0.7);
+    left: 0;
+    transition: all 0.3s ease-out 0s;
+}
+
+.sign_up:hover:before{ left: 100%; }
+
+.sign_up:hover:after{
+    opacity: 0.3;
+    transform: scale(1);
+}
+
   .nav-links li.login a:hover{
     border: none !important;
     }
@@ -77,9 +130,13 @@ nav{
   .drop-menu li a{
     display: block;
     padding: 0 0 0 15px;
-    font-weight: 400;
+    font-weight: 500;
     border-radius: 0px;
     color: black !important;
+  }
+  .drop-menu li a img{
+    margin-right: 10px;
+    border-radius: 10px;
   }
   .drop-menu li a:hover{
     border: 0 !important;
@@ -220,4 +277,30 @@ nav{
   }
   nav input{
     display: none;
+  }
+
+  @media screen and (max-width:480px){
+    nav.main_nav .wrapper .logo a > img{
+      height: 50px;
+    }
+    .side_logo {
+      height: 100px;
+      margin: auto;
+  }
+  }
+  @media screen and (max-width:400px){
+    nav.main_nav .wrapper .logo a > img{
+      height: 40px;
+    }
+  }
+  @media screen and (max-width:350px){
+    nav.main_nav .wrapper .logo a > img{
+      height: 30px;
+    }
+  }
+  @media screen and (max-width:300px){
+   nav.main_nav .wrapper .btn {
+    font-size: 15px;
+    padding: 5px 11px;
+  }
   }
