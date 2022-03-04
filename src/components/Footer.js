@@ -14,41 +14,41 @@ function Footer() {
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>TOOLS</h4>
-                    <li><Link to='/Validdx'><a>VALIDEFI•DX</a></Link></li>
-                    <li><Link to='/PortfolioTracker'><a>Portfolio Tracker</a></Link></li>
-                    <li><Link to='/VALIDEFINTTLink'><a>VALIDEFI•NT T-Link</a></Link></li>
-                    <li><Link to='/TitanWallet'> <a>Titan Wallet</a></Link> </li>
+                    <li><Link to='/Signup'><a>VALIDEFI•DX</a></Link></li>
+                    <li><Link to='/Signup'><a>Portfolio Tracker</a></Link></li>
+                    <li><Link to='/Signup'><a>VALIDEFI•NT T-Link</a></Link></li>
+                    <li><Link to='/Signup'> <a>Titan Wallet</a></Link> </li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>TOKEN</h4>
-                      <li><Link to='/Validtoken'><a>Valid Token</a></Link></li>
-                      <li><Link to='/Psp'><a>PSP (Profit Share Protocol)</a></Link></li>
-                      <li><Link to='/Whitepaper'> <a>White Paper</a></Link> </li>
+                      <li><Link to='/Signup'><a>Valid Token</a></Link></li>
+                      <li><Link to='/Signup'><a>PSP (Profit Share Protocol)</a></Link></li>
+                      <li><Link to='/Signup'> <a>White Paper</a></Link> </li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>ABOUT</h4>
-                    <li><Link to='/Team'> <a>Team</a></Link> </li>
-                    <li><Link to='/InvestorRelations'><a>Investor Relations</a></Link></li>
-                    <li><Link to='/Institutional'><a>Institutional</a></Link></li>
-                    <li><Link to='/Careers'><a>Careers</a></Link></li>
-                    <li><Link to='/NFTPlatform'><a>NFT Platform</a></Link></li>
+                    <li><Link to='/Signup'> <a>Team</a></Link> </li>
+                    <li><Link to='/Signup'><a>Investor Relations</a></Link></li>
+                    <li><Link to='/Signup'><a>Institutional</a></Link></li>
+                    <li><Link to='/Signup'><a>Careers</a></Link></li>
+                    <li><Link to='/Signup'><a>NFT Platform</a></Link></li>
                   </div>
                 </div>
 
                 <div className='col-lg-2 col_footer'>
                   <div className='footer'>
                     <h4>LEGAL</h4>
-                    <li><Link to='/Termofuse'><a>Term of use</a></Link></li>
-                    <li><Link to='/CustomerAgreement'><a>Customer Agreement</a></Link></li>
-                    <li><Link to='/Licenses'><a>Licenses</a></Link></li>
-                    <li><Link to='/PrivacyPolicy'><a>Privacy Policy</a></Link></li>
-                    <li><Link to='/Promotions'><a>Promotions</a></Link></li>
+                    <li><Link to='/Signup'><a>Term of use</a></Link></li>
+                    <li><Link to='/Signup'><a>Customer Agreement</a></Link></li>
+                    <li><Link to='/Signup'><a>Licenses</a></Link></li>
+                    <li><Link to='/Signup'><a>Privacy Policy</a></Link></li>
+                    <li><Link to='/Signup'><a>Promotions</a></Link></li>
                   </div>
                 </div>
 

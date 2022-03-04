@@ -48,6 +48,7 @@ function App() {
        <Route path="BNB" element={<BNB />} />
        <Route path="USDT" element={<USDT />} />
        <Route path="Tron" element={<Tron />} />
+       <Route path="About" element={<About />} />
        <Route path="Faq" element={<Faq />} />
        <Route path="Contact" element={<Contact />} />
        <Route path="Validefidx" element={<Validefidx />} />

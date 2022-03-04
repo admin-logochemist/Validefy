@@ -1,4 +1,5 @@
 // import 'font-awesome/css/font-awesome.min.css'
+import $ from "jquery";
 import wallet_icon from '../images/wallet-solid.svg'
 import BitCoin from '../components/BitCoin';
 import bitcoin_icon from '../images/bitcoin.png'
@@ -37,46 +38,26 @@ function Tabscontent() {
                         <div role="tabpanel" class="tab-pane fade in active" id="bit">
                           <div className='own_flex_class'>
                           <BitCoin/>
-                          <TradingSnaps/>
-                          <Trades />
-                          <BullSays />
-                          <TechnicalAnalysis />
+                          {/* <TradingSnaps/> */}
+                          {/* <Trades /> */}
+                          {/* <BullSays /> */}
+                          {/* <TechnicalAnalysis /> */}
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="ETH">
                         <div className='own_flex_class'>
-                          <BitCoin/>
-                          <TradingSnaps/>
-                          <Trades />
-                          <BullSays />
-                          <TechnicalAnalysis />
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="tether">
                           <div className='own_flex_class'>
-                            <BitCoin/>
-                            <TradingSnaps/>
-                            <Trades />
-                            <BullSays />
-                            <TechnicalAnalysis />
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="bnb">
                           <div className='own_flex_class'>
-                            <BitCoin/>
-                            <TradingSnaps/>
-                            <Trades />
-                            <BullSays />
-                            <TechnicalAnalysis />
                           </div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="usd">
                           <div className='own_flex_class'>
-                            <BitCoin/>
-                            <TradingSnaps/>
-                            <Trades />
-                            <BullSays />
-                            <TechnicalAnalysis />
                           </div>
                         </div>
                     </div>

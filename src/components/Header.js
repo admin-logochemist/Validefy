@@ -36,9 +36,9 @@ function Header() {
                             <li><Link to="/Valideficoming">Validefi (Coming Soon)</Link></li>
                         </ul>
                     </li>
-                    <li className='menu-links'><Link to="/">About</Link></li>
-                    <li className='menu-links'><Link to="/">Faq</Link></li>
-                    <li className='menu-links'><Link to="/">Contact</Link></li>
+                    <li className='menu-links'><Link to="/About">About</Link></li>
+                    <li className='menu-links'><Link to="/Faq">Faq</Link></li>
+                    <li className='menu-links'><Link to="/Contact">Contact</Link></li>
                     <li className='menu-links display_none'>
                         <a href="" className="desktop-item abbreviations_bit"><img src={drop_img_one} className='drop_img' /> BTC<i className="fa fa-caret-down"></i></a>
                         <ul className="drop-menu display_none">

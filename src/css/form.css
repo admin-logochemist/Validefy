@@ -1,16 +1,16 @@
+
+.bg_animation{}
 .form-row{
     margin-top: 160px;
     position: relative;
     left: 20px;
   
 }
-
 .form-bg{
     background-size: cover;
     position: relative;
 
 }
-
 .form-bg:before{
     content: "";
     width: 100%;
@@ -20,9 +20,7 @@
     left: 0;
     opacity: 0.8;
 }
-
-.form-horizontal{
-    
+.form-horizontal{   
     width: 110%;
     position: relative;
     left: 296px;
@@ -34,7 +32,6 @@
     border-radius: 5px ;
     border: 2px solid white;
     margin-bottom: 10px;
-    
 }
 
 .form-horizontal:before{
@@ -57,8 +54,7 @@
     position: absolute;
     top: -62px;
     left: -1px;
-    right: 0;
-    
+    right: 0;   
 }
 
 .form-horizontal .heading{
@@ -70,7 +66,6 @@
     margin-bottom: 20px;
     margin-top: 50px;
     font-weight: 500;
-    
 }
 
 .form-horizontal .form-group{
@@ -110,7 +105,6 @@
     padding: 34px;
     display: flex;
     flex-direction: row;
-  
 }
 
 .checkbox{

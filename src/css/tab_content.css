@@ -3,6 +3,15 @@
 .margin-top{
     margin-top: 50px;
 }
+.own_container{
+    max-width: unset;
+    float: left;
+    width: 85%;
+    display: block;
+    margin: auto;
+    position: relative;
+    margin-left: 176px;
+}
 ul.nav-tabs li a img{
     height: 30px;
     border-radius: 30px;
@@ -142,8 +151,11 @@ ul.nav-tabs li a img{
 .vollet_btn button img{
     margin-right: 5px;
 }
+.scd_width{
+    width: 40% !important;
+}
 .col_iframe{
-    width: 48%;
+    width: 55%;
     background: hsla(0,0%,100%,.05);
     margin: 10px;
 }
